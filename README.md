@@ -7,6 +7,7 @@
  <sup>2 </sup>FaceSoft.io
  <br/>
  <sup>3 </sup>University of Middlesex
+#### [CVPR2019]
 
 <br/>
 
@@ -43,8 +44,8 @@ If you find this work is useful for your research, please cite our [paper](https
 @article{gecer2019ganfit,
   title={GANFIT: Generative Adversarial Network Fitting for High Fidelity 3D Face Reconstruction},
   author={Gecer, Baris and Ploumpis, Stylianos and Kotsia, Irene and Zafeiriou, Stefanos},
-  journal={arXiv preprint arXiv:1902.05978},
-  year={2019}
+  journal={The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year={2019}      
 }
 
 ```
