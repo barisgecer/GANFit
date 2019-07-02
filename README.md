@@ -1,4 +1,4 @@
-# [GANFIT: Generative Adversarial Network Fitting for High Fidelity 3D Face Reconstruction](https://arxiv.org/abs/1902.05978)
+# [GANFIT: Generative Adversarial Network Fitting for High Fidelity 3D Face Reconstruction](http://openaccess.thecvf.com/content_CVPR_2019/html/Gecer_GANFIT_Generative_Adversarial_Network_Fitting_for_High_Fidelity_3D_Face_CVPR_2019_paper.html)
 
  [Baris Gecer](http://barisgecer.github.io)<sup> 1,2</sup>, [Stylianos Ploumpis](https://ibug.doc.ic.ac.uk/people/sploumpis)<sup> 1,2</sup>, [Irene Kotsia](https://www.mdx.ac.uk/about-us/our-people/staff-directory/profile/kotsia-irene)<sup> 3</sup>, & [Stefanos Zafeiriou](https://wp.doc.ic.ac.uk/szafeiri/)<sup> 1,2</sup>
  <br/>
@@ -38,14 +38,15 @@ Detailed overview of the proposed approach. A 3D face reconstruction is rendered
 <br/>
 
 ## Citation
-If you find this work is useful for your research, please cite our [paper](https://arxiv.org/abs/1902.05978):
+If you find this work is useful for your research, please cite our [paper](http://openaccess.thecvf.com/content_CVPR_2019/html/Gecer_GANFIT_Generative_Adversarial_Network_Fitting_for_High_Fidelity_3D_Face_CVPR_2019_paper.html):
 
 ```
-@article{gecer2019ganfit,
-  title={GANFIT: Generative Adversarial Network Fitting for High Fidelity 3D Face Reconstruction},
-  author={Gecer, Baris and Ploumpis, Stylianos and Kotsia, Irene and Zafeiriou, Stefanos},
-  journal={The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
-  year={2019}      
+@InProceedings{Gecer_2019_CVPR,
+author = {Gecer, Baris and Ploumpis, Stylianos and Kotsia, Irene and Zafeiriou, Stefanos},
+title = {GANFIT: Generative Adversarial Network Fitting for High Fidelity 3D Face Reconstruction},
+booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+month = {June},
+year = {2019}
 }
 
 ```
