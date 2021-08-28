@@ -20,7 +20,7 @@
 <p align="center"><img width="100%" src="figures/first_page_fig.png" /></p>
 
 * :pushpin: GANFit now has a faster (called FastGANFit) and a more stable (called GANFit++) versions. See our [TPAMI](https://arxiv.org/abs/2105.07474) paper for the details
-* :pushpin: Evaluation code of GANFit and FastGANFit on MICC Florence dataset is now available (see below for instructions)
+* :pushpin: Evaluation code of GANFit and FastGANFit on MICC Florence dataset is now available ([see below for instructions](https://github.com/barisgecer/GANFit#micc-florence-evaluation-code))
 * :pushpin: Unfortunately the reconstruction code of these studies has been commercialized, so we cannot share it with anyone. However, if you send some images, we can send back our results for comparison in academic publications.
 * :pushpin: We opened another texture-shape model to public with is very similar to GANFit texture model, you can apply for its license here [TBGAN](https://github.com/barisgecer/TBGAN).
 
