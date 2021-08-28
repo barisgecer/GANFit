@@ -19,10 +19,10 @@
 
 <p align="center"><img width="100%" src="figures/first_page_fig.png" /></p>
 
-* :pushpin: GANFit now has a better versions, faster (called FastGANFit) and more stable (called GANFit++)). See our [TPAMI](https://arxiv.org/abs/2105.07474) paper for details
+* :pushpin: GANFit now has a faster (called FastGANFit) and a more stable (called GANFit++) versions. See our [TPAMI](https://arxiv.org/abs/2105.07474) paper for the details
 * :pushpin: Evaluation code of GANFit and FastGANFit on MICC Florence dataset is now available (see below for instructions)
-* :pushpin: Unfortunately the code of these studies have been commercialized, so we cannot share it publicly. However, if you send some images, we can send back our results.
-* :pushpin: We opened another texture-shape model similar to GANFit, you can apply for it here [TBGAN](https://github.com/barisgecer/TBGAN)
+* :pushpin: Unfortunately the reconstruction code of these studies has been commercialized, so we cannot share it with anyone. However, if you send some images, we can send back our results for comparison in academic publications.
+* :pushpin: We opened another texture-shape model to public with is very similar to GANFit texture model, you can apply for its license here [TBGAN](https://github.com/barisgecer/TBGAN).
 
 ## Abstract
 
@@ -45,12 +45,12 @@ Overview of the approach with regression network. The network is end-to-end conn
 * Register the Ground Truth meshes from the dataset to a common template:
   * >python micc_registration.py [MICC_path] [Registration_path]
   * The manually annotated landmarks are under 'MICC_landmarks' and the path is given by default
-* Estimate 3D reconstruction based on videos in different settings (GANFit uses 5 random image per video), save them as obj files under the same folder structure
+* Estimate your 3D reconstructions based on videos (GANFit uses 5 random image per video), save them as '.obj' files under the same folder structure
 * Run the evaluation code:
   * >python micc_evaluation.py [Registration_path] [Reconstruction_path] 
-  * Evaluation code first align meshed based on landmark, so landmark indices should be given as [--template_lms] (default template and corresponding landmarks are given in this repo)
+  * Evaluation code first align meshes based on landmarks, so landmarks indices should be given as [--template_lms] (default template and corresponding landmarks are given in this repo)
   * Then it runs Rigid-ICP to deal with any misalignment remains without deforming the meshes
-  * Finally, errors are calculated as mean symmetrical point-to-plane distance
+  * Finally, the errors are calculated as mean symmetrical point-to-plane distance
 * This evaluation scenario is borrowed from [Unsupervised Training for 3D Morphable Model Regression, Genova et al. CVPR 2018] and implemented by us.
 
 ## More Results
