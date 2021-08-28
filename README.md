@@ -52,6 +52,7 @@ Overview of the approach with regression network. The network is end-to-end conn
   * Then it runs Rigid-ICP to deal with any misalignment remains without deforming the meshes
   * Finally, the errors are calculated as mean symmetrical point-to-plane distance
 * This evaluation scenario is borrowed from [Unsupervised Training for 3D Morphable Model Regression, Genova et al. CVPR 2018] and implemented by us.
+* Feel free to download the reconstruction results by GANFit++ [here](https://drive.google.com/file/d/1o5O0okEy-KH6WSkTycYp5OWEqJa3KQfX/view?usp=sharing) (You may run micc_evaluation.py to see its performance).
 
 ## More Results
 
