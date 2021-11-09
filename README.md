@@ -30,14 +30,14 @@ In the past few years a lot of work has been done towards reconstructing the 3D 
 
 ## GANFit
 
-<p align="center"><img width="100%" src="figures/overview_cvpr19_fixed.png" /></p>
+<p align="center"><img width="100%" src="figures/overview_cvpr19_fixed.png" style="background-color:white;" /></p>
 Detailed overview of the proposed approach. A 3D face reconstruction is rendered by a differentiable renderer (shown in purple). Cost functions are mainly formulated by means of identity features on a pretrained face recognition network (shown in gray) and they are optimized by flowing the error all the way back to the latent parameters (p_s, p_e, p_t, p_c, p_i, shown in green) with gradient descent optimization. End-to-end differentiable architecture enables us to use computationally cheap and reliable first order derivatives for optimization thus making it possible to employ deep networks as a generator (i.e,. statistical model) or as a cost function.
 
 <br/>
 
 ## FastGANFit
 
-<p align="center"><img width="100%" src="figures/overview_pami_fixed.png" /></p>
+<p align="center"><img width="100%" src="figures/overview_pami_fixed.png" style="background-color:white;" /></p>
 Overview of the approach with regression network. The network is end-to-end connected with the differentiable renderer and the lost functions of GANFit. It benefits from the activations of all layers of a pretrained face recognition network and detection of a hourglass landmark detector.The network is trained similar to GANFit optimization: 1) alignment 2) full objective. The only difference is that now the regression network is being optimized instead of the trainable latent parameters of GANFit.
 
 ## MICC FLorence Evaluation Code
